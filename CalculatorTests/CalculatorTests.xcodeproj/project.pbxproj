@@ -17,6 +17,7 @@
 		FA3DB5862613C6C000280631 /* CalculationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB5812613C6C000280631 /* CalculationManager.swift */; };
 		FA3DB5872613C6C000280631 /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB5832613C6C000280631 /* Operand.swift */; };
 		FA3DB5882613C6C000280631 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB5852613C6C000280631 /* CalculatorViewController.swift */; };
+		FAC9A7602617BCF400A889EF /* CalculatorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC9A75F2617BCF400A889EF /* CalculatorViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FA3DB5812613C6C000280631 /* CalculationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationManager.swift; sourceTree = "<group>"; };
 		FA3DB5832613C6C000280631 /* Operand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operand.swift; sourceTree = "<group>"; };
 		FA3DB5852613C6C000280631 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		FAC9A75F2617BCF400A889EF /* CalculatorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		FA3DB5602613C55800280631 /* CalculatorTestsTests */ = {
 			isa = PBXGroup;
 			children = (
+				FAC9A75F2617BCF400A889EF /* CalculatorViewControllerTests.swift */,
 				FA3DB5612613C55800280631 /* CalculationManagerTests.swift */,
 				FA3DB5632613C55800280631 /* Info.plist */,
 			);
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC9A7602617BCF400A889EF /* CalculatorViewControllerTests.swift in Sources */,
 				FA3DB5622613C55800280631 /* CalculationManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
